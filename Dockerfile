@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN apt update && apt install python3 && ln -sf python3 /usr/bin/python
 
-ADD ./* /app/
+ADD . /app/
 
 RUN npm install
 
